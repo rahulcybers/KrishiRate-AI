@@ -1,0 +1,131 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KrishiRate AI</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+<div class="logo">🌾 KrishiRate AI</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#rates">Rates</a>
+<a href="#scan">Scan</a>
+<a href="#assistant">AI Help</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+<h1>Smart Crop Prices & AI Farmer Assistant</h1>
+<p>Live mandi prices, crop scan, voice search, weather alerts and AI help for farmers.</p>
+
+<div class="hero-btns">
+<button onclick="document.getElementById('rates').scrollIntoView({behavior:'smooth'})">Check Rates</button>
+
+<button onclick="startVoice()">🎤 Voice Search</button>
+</div>
+</div>
+
+<div class="hero-image">
+<img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=900&q=80">
+</div>
+
+</section>
+
+<section class="stats">
+
+<div class="stat-card">
+<h2>500+</h2>
+<p>Mandis Covered</p>
+</div>
+
+<div class="stat-card">
+<h2>20+</h2>
+<p>Crops Supported</p>
+</div>
+
+<div class="stat-card">
+<h2>24x7</h2>
+<p>AI Guidance</p>
+</div>
+
+</section>
+
+<section class="tools">
+
+<div class="tool-card">
+<h3>🌤 Weather</h3>
+<p id="weather">Sunny | 31°C | Good Harvest Day</p>
+</div>
+
+<div class="tool-card">
+<h3>🌙 Theme</h3>
+<button onclick="toggleDark()">Toggle Dark Mode</button>
+</div>
+
+<div class="tool-card">
+<h3>🎤 Voice Command</h3>
+<p id="voiceText">Say: Wheat Rate</p>
+</div>
+
+</section>
+
+<section class="rates" id="rates">
+
+<h2>Check Mandi Rates</h2>
+
+<select id="crop">
+<option>Wheat</option>
+<option>Rice</option>
+<option>Potato</option>
+<option>Onion</option>
+</select>
+
+<button onclick="showRates()">Get Rates</button>
+
+<div id="result"></div>
+
+</section>
+
+<section class="scan" id="scan">
+
+<h2>📸 Upload Crop Photo</h2>
+
+<input type="file" id="file">
+
+<button onclick="scanCrop()">Scan Now</button>
+
+<div id="scanResult"></div>
+
+</section>
+
+<section class="assistant" id="assistant">
+
+<h2>🤖 Farmer AI Assistant</h2>
+
+<input type="text" id="ask" placeholder="Ask anything... Example: Best time to sell wheat">
+
+<button onclick="askAI()">Ask AI</button>
+
+<div id="aiResult"></div>
+
+</section>
+
+<footer id="contact">
+
+<p>© 2026 KrishiRate AI | Empowering Indian Farmers 🇮🇳</p>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
