@@ -1,0 +1,53 @@
+{
+  "Wheat": {
+    "Patna Mandi": 2470,
+    "Ara Mandi": 2435,
+    "Gaya Mandi": 2390,
+    "Muzaffarpur Mandi": 2455,
+    "Buxar Mandi": 2415,
+    "Nalanda Mandi": 2440
+  },
+
+  "Rice": {
+    "Patna Mandi": 2280,
+    "Purnea Mandi": 2340,
+    "Bhagalpur Mandi": 2295,
+    "Darbhanga Mandi": 2310,
+    "Katihar Mandi": 2360,
+    "Muzaffarpur Mandi": 2325
+  },
+
+  "Potato": {
+    "Patna Mandi": 1680,
+    "Nalanda Mandi": 1740,
+    "Gaya Mandi": 1715,
+    "Samastipur Mandi": 1760,
+    "Muzaffarpur Mandi": 1730,
+    "Begusarai Mandi": 1705
+  },
+
+  "Onion": {
+    "Patna Mandi": 2120,
+    "Nawada Mandi": 2185,
+    "Bhojpur Mandi": 2150,
+    "Begusarai Mandi": 2210,
+    "Siwan Mandi": 2195,
+    "Chapra Mandi": 2170
+  },
+
+  "Maize": {
+    "Patna Mandi": 1960,
+    "Purnea Mandi": 2015,
+    "Katihar Mandi": 2040,
+    "Araria Mandi": 1995,
+    "Bhagalpur Mandi": 1980
+  },
+
+  "Tomato": {
+    "Patna Mandi": 1450,
+    "Nalanda Mandi": 1525,
+    "Gaya Mandi": 1490,
+    "Samastipur Mandi": 1560,
+    "Muzaffarpur Mandi": 1505
+  }
+}
